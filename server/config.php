@@ -27,7 +27,7 @@
 
 
   // Define days and months names
-  // This helps with localization, because PHP's locale names are unreliable
+  // This helps with localization, because PHP's date names are easier to customize like this
   $days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
   $months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
   $today = "Today";
@@ -35,7 +35,7 @@
 
 
   // Define significant yearly recurring events here
-  // A countdown towards the next event is be displayed at the bottom of the screen
+  // A countdown towards the next event is displayed at the bottom of the screen
   // E.g. "10 days until Christmas Day"
   $importantEvents = (object)[
     "01-01" => "New Year's Day",
